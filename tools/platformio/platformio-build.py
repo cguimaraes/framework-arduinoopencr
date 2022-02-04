@@ -239,7 +239,6 @@ env.Append(
         "ARDUINO_ARCH_STM32",
         "ARDUINO_%s" % board_id,
         ("BOARD_NAME", '\\"%s\\"' % board_id),
-        "HAL_UART_MODULE_ENABLED",
         "USE_FULL_LL_DRIVER",
         (
             "VARIANT_H",
